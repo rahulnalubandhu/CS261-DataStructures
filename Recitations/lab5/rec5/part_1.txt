@@ -1,0 +1,14 @@
+
+From starting I had lot of doubts, so I was continuously using the tutoring services and ta office hours 
+to clarify doubts and I used to have issue with pointers and later due to that I faced a problem in linked list 
+I understood the concept of linked list. 
+
+The new node is always added before the head of the given linked list and newly added node becomes the new head of 
+the linked list so if we add an item at front, then this is also same as push where push function receive a pointer 
+to the head pointer because function push must change the head pointer to point to new node so the time complexity 
+for linked list insertion  and deletion is o(1) but in pulling up the value or if we want to find any value then the 
+time complexity is o(n) because it has to iterate through all node in order to reach because the next value address is 
+stored in previous link node.   
+
+
+In midterm also I faced same issue with the linked list.

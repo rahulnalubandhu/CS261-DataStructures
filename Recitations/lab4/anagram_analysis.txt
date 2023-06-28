@@ -1,0 +1,32 @@
+The time complexity for the function is O(1)
+the output is Test 1.....
+"heart", "earth"
+Expected: 1 
+Acutal: 1
+
+Test 2.....
+"python", "typhon"
+Expected: 1 
+Acutal: 1
+
+Test 3.....
+"race", "care"
+Expected: 1 
+Acutal: 1
+
+Test 4.....
+"listen", "silent"
+Expected: 1 
+Acutal: 1
+
+Test 5.....
+"seal", "leaf"
+Expected: 0 
+Acutal: 0
+
+Test 6.....
+"asdfghjkl", "aasdfghjk"
+Expected: 0 
+Acutal: 0
+
+Also in main function called the check_anagram() function 

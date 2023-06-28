@@ -1,0 +1,17 @@
+It does not need to provide direct access to any specific log entry.
+
+It completely depends on what type of system we are building. so, for the dynamic array the memory is allocated sequentially so when you
+are trying to access the memory of some random address then here you can easily go and get the data.It doesn’t depend on the previous address as like linked list.
+So, if we are arranging the data sequentially then the real-life system is easily used to get the data.
+And the time complexity for this one is O(1)
+
+But there is a disadvantage using the dynamic array suppose if you remove any element then the whole elements should be shifted to access that removed memory 
+so for this we need to go at each value and sort it back.for this time complexity is O(n)
+
+But in linked list we cannot go to some random value to directly to access the data because in linked list without the address of next value 
+we cannot go further like if we take ex as we want to access data in 5th node then we need to iterate all from 1 to 4 to access the value of 5 so
+ it takes more time hence the time complexity for this one is O(n).but if we want to resize anything then linked list is preferred than dynamic array 
+
+Because for resizing the dynamic array has time complexity of O(n) because if weremove value should swap all values to that place 
+
+But in linked list it is easy if want to remove then we need to go to that address and remove.
